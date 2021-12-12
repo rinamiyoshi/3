@@ -1,2 +1,10 @@
-<h1>Homes#edit</h1>
-<p>Find me in app/views/homes/edit.html.erb</p>
+<h1>Editing Book</h1>
+
+<%= form_with model:@book, local: true do |f| %>
+  <h4>title</h4>
+  <%= f.text_field :title %>
+
+  <h4>body</h4>
+  <%= f.text_area :body %>
+  <%= f.submit 'Update Book' %>
+<% end %>
