@@ -1,4 +1,9 @@
+
+
 <%= form_with model:@book, local: true do |f| %>
+
+<h1>Editing Book</h1>
+
   <h4>title</h4>
   <%= f.text_field :title %>
 
@@ -10,5 +15,5 @@
 
 <% end %>
 
-<%= link_to "Show", new_book_path %>
-<%= link_to "Back", new_book_path %>
+<%= link_to "show", book_path(@book) %>
+<%= link_to "Back", books_path %>
