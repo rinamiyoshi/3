@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 * {
   margin: 0;
   padding: 0;
@@ -12,8 +13,18 @@ body{
   margin: 33px;
 }
 
+.edit-home{
+  display: block;
+}
+
 h1{
-  margin: 0px 15px;
+  margin: 15px 0px;
+  font-size: 26px;
+}
+
+h2{
+  margin: 17.42px 0;
+  font-size: 19.5px;
 }
 
 .top-1{
@@ -27,4 +38,58 @@ storong{
 
 .top{
   margin: 40px;
+}
+
+.flashmassege{
+  color: #008000;
+  margin: 33px;
+}
+
+table{
+  width: 80%;
+  display:block;
+}
+
+
+.index-title{
+  padding: 1px 1px 5px;
+  width: 250px;
+  margin: 60px;
+}
+
+.index-body{
+  margin: 800px;
+  width: 500px;
+  padding: 1px 1px 5px;
+ }
+
+ .show,.Edit,.Destroy,.Back{
+   padding: 1px 5px 7px;
+   margin: 33px;
+   font-size: 13px;
+   font-family: "Verdana";
+ }
+
+.field{
+  margin: 0px 0px 10px;
+}
+
+.submit{
+  padding: 2px;
+
+}
+
+.show_body{
+  margin: 33px;
+  width: 100%;
+  display: inline-block;
+}
+
+p{
+  margin: 33px;
+
+}
+
+.submit{
+  margin: 0px 0px 10px;
 }
